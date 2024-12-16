@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DocumenT</title>
+</head>
+
+<body>
+        <fieldset>
+            <center><img src="./logo.jpg" width="50" height="50">
+                <h2>TELANGANA STATE BOARD TRANSPORT CORPORATION</h2>
+                <h2>
+                    <P>GENERAL BUS PASS APPLICATION</P>
+                </h2>
+            </center>
+        </fieldset>
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <form method="get" action="../index.html" autocomplete="off">
+            Name&emsp;&emsp;&emsp;&emsp;
+            <input type="text" name="Name" maxlength="20" required autofocus pattern="[a-zA-Z]+" required>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Father's/Guardian's name
+            <input type="text" name="Father's/Guardian name" maxlength="20" required autofocus pattern="[a-zA-Z]+" required><br>
+            Date of birth &emsp;&emsp;
+            <input type="text" name="Date of birth" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Gender&emsp;&emsp;&emsp;
+            <label for ="female">female</label>
+            <input type="radio"id="female"name="gender" value="female" required>
+            <label for ="male">male</label>
+            <input type="radio"id="male"name="gender" value="male" required><br>
+             Age As on:&emsp;&emsp;&emsp;&emsp;
+            <input type="text" name="age as on" required>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Aadhaar no:&emsp;&emsp;
+            <input type="text" name="Aadhaar" required  pattern="[0-9]{12}"><br>
+            WhatsApp No&emsp;&emsp;&emsp;
+            <input type="text" name="WhatsApp no" required pattern="\+91[6789][0-9]{9}">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Email id&emsp;&emsp;&emsp;
+            <input type="text" name="E-mail" required><br>
+            Photo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <input type="file" name="Choose file" required>
+        </fieldset>
+         <fieldset>
+            <legend>Residential Address Details</legend>
+            Applicants Address&emsp;&emsp;
+            <textarea name="Address" id=""></textarea>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            District&emsp;&emsp;&emsp;
+            <select name="disrict" id="">
+                <option value="3">select</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select><br><br>
+            Mandal&emsp;&emsp;
+            <select name="disrict" id="">
+                <option value="3">select</option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            village&emsp;&emsp;
+            <select name="disrict" id="">
+                <option value="3">select</option>
+                <option value="Hyderabad">Hyderabad</option><br><br>  
+            </select><br>
+            Pincode&emsp;&emsp;
+            <input type="Text" name="Pincode" required pattern="[0-9]{6}"><br>
+         </fieldset>
+         <fieldset>
+            city&emsp;&emsp;&emsp;
+            <select name="City" id="">
+                <option value="3">select</option>
+                <option value="Hyderabad">Hyderabad</option><br><br>  
+            </select><br>
+            pass type
+            <select name="disrict" id="">
+                <option value="3">select</option>
+                <option value="Hyderabad">ordinary pass</option><br><br>  
+            </select><br>
+         </fieldset>
+
+    </form><fieldset>
+            Payment Mode &emsp;&emsp;&emsp;
+            <select name="payment mode" id="">
+                <option value="3">select</option>
+                <option value="">payment at counter</option>
+            </select><br><br>
+            pass Delivary Mode
+            <select name="" id="">
+                <option value="3"> select</option>
+                <option value=""> At counter </option><br><br>  
+            </select><br><br>
+            Center at which you want to collect pass
+            <select name="center" id="">
+                <option value="3">select </option>
+                <option value="">rajampet</option><br><br>  
+            </select><br>
+         </fieldset>
+         <center>
+           <img src="./captcha.jpg" width="100"><br>
+           <input type="text" pattern="706DE">
+           <input type="submit" value="submit">
+         </center>
+        </form>
+</body>
+
+</html>
